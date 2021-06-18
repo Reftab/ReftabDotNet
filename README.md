@@ -6,7 +6,7 @@ This is a quick and dirty module to interact with the Reftab API via .NET. Curre
 # Instructions
 
 ```csharp
-# Add the Reftab.cs file to your repository and include this line on any files you want to use the library.
+//Add the Reftab.cs file to your repository and include this line on any files you want to use the library.
 using Reftab;
 ```
 
@@ -21,7 +21,7 @@ using Reftab;
 ### Get an Asset and Update It
 
 ```csharp
-#This example shows how to get an asset and update it
+//This example shows how to get an asset and update it
 
 public async void Test() {
     //Create the ReftabApi connector setting the public and secret keys.
